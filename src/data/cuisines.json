@@ -1,0 +1,10 @@
+[
+  { "id": "chinese", "label": "Chinese", "country": "China", "seal": "醬", "accent": "lacquer" },
+  { "id": "japanese", "label": "Japanese", "country": "Japan", "seal": "醤", "accent": "lapis" },
+  { "id": "korean", "label": "Korean", "country": "Korea", "seal": "장", "accent": "jade" },
+  { "id": "thai", "label": "Thai", "country": "Thailand", "seal": "น้ำ", "accent": "gold" },
+  { "id": "vietnamese", "label": "Vietnamese", "country": "Vietnam", "seal": "Ớt", "accent": "jade" },
+  { "id": "filipino", "label": "Filipino", "country": "Philippines", "seal": "Suka", "accent": "cinnabar" },
+  { "id": "indo-chinese", "label": "Indo-Chinese", "country": "India", "seal": "मसाला", "accent": "gold" },
+  { "id": "pantry", "label": "Pantry craft", "country": "Everywhere", "seal": "本", "accent": "ink" }
+]
