@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "black-vinegar-sub",
+    "name": "Black vinegar stand-in",
+    "nativeName": "鎮江醋 (代)",
+    "cuisine": "pantry",
+    "region": null,
+    "category": "Building block",
+    "flavors": ["Sour", "Umami"],
+    "heat": 0,
+    "sweetness": 1,
+    "blurb": "Balsamic is the accepted stand-in for Chinkiang. Cutting it with rice vinegar thins the sweetness back to something Chinese food can use.",
+    "ingredients": [
+      { "id": "balsamic-vinegar", "amount": "3 parts" },
+      { "id": "rice-vinegar", "amount": "1 part" }
+    ],
+    "method": [
+      "Stir together and keep in a small bottle by the stove.",
+      "Taste against anything you are dressing. If it still reads sweet, push the rice vinegar up to 1:1."
+    ],
+    "uses": ["Dumpling dipping sauce", "Kung pao", "Cold noodle dressings", "Anywhere a recipe says black vinegar"],
+    "note": "The real bottle is about four dollars and the balsamic sweetness does fight you. This is a good fake, not a permanent answer."
+  },
+  {
+    "id": "oyster-sauce-sub",
+    "name": "Oyster sauce stand-in",
+    "nativeName": "蠔油 (代)",
+    "cuisine": "pantry",
+    "region": null,
+    "category": "Building block",
+    "flavors": ["Salty", "Umami", "Sweet"],
+    "heat": 0,
+    "sweetness": 2,
+    "blurb": "Two routes, depending on whether you want the thickness or the savour.",
+    "ingredients": [
+      { "id": "hoisin", "amount": "2 parts" },
+      { "id": "fish-sauce", "amount": "1 part" },
+      { "id": "water", "amount": "splash" },
+      { "id": "worcestershire", "amount": "1 tbsp (route two)" },
+      { "id": "light-soy", "amount": "1 tbsp (route two)" },
+      { "id": "palm-sugar", "amount": "1 tsp (route two)" }
+    ],
+    "method": [
+      "For body: thin the hoisin with fish sauce and a splash of water until it pours like syrup.",
+      "For savour: Worcestershire is anchovy-based, so soy, Worcestershire and palm sugar give you the same backbone without the gloss."
+    ],
+    "uses": ["Stir-fries", "Greens with garlic", "Anything braised"],
+    "note": "You own the real thing now. Keep this for when the bottle runs out mid-cook."
+  },
+  {
+    "id": "mirin-sub",
+    "name": "Mirin stand-in",
+    "nativeName": "味醂 (代)",
+    "cuisine": "pantry",
+    "region": null,
+    "category": "Building block",
+    "flavors": ["Sweet"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "Fine in a cooked glaze, wrong in anything raw.",
+    "ingredients": [
+      { "id": "palm-sugar", "amount": "1 part" },
+      { "id": "water", "amount": "2 parts, warm" },
+      { "id": "rice-vinegar", "amount": "a few drops" }
+    ],
+    "method": [
+      "Dissolve the palm sugar in warm water.",
+      "Add the vinegar. Use immediately."
+    ],
+    "uses": ["Teriyaki", "Unagi glaze", "Any reduction"],
+    "note": "You have real mirin now. This is for the day you do not."
+  },
+  {
+    "id": "sushi-zu",
+    "name": "Seasoned rice vinegar",
+    "nativeName": "寿司酢",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Building block",
+    "flavors": ["Sour", "Salty", "Sweet"],
+    "heat": 0,
+    "sweetness": 2,
+    "blurb": "Better than the bottled stuff, and it takes ninety seconds.",
+    "ingredients": [
+      { "id": "rice-vinegar", "amount": "4 parts" },
+      { "id": "palm-sugar", "amount": "2 parts" },
+      { "id": "salt", "amount": "1 part" }
+    ],
+    "method": [
+      "Warm gently until the sugar and salt dissolve. Do not boil.",
+      "Cool before using."
+    ],
+    "uses": ["Sushi rice", "Quick cucumber pickles", "Sunomono"],
+    "note": "Drop the sugar to 1 part if you want it sharp rather than balanced."
+  },
+  {
+    "id": "sesame-paste-fix",
+    "name": "Chinese sesame paste from tahini",
+    "nativeName": "芝麻醬",
+    "cuisine": "pantry",
+    "region": null,
+    "category": "Building block",
+    "flavors": ["Nutty", "Aromatic"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "Chinese sesame paste is made from toasted seeds and tahini is not, which is why straight swaps taste flat and faintly bitter. This closes the gap.",
+    "ingredients": [
+      { "id": "tahini", "amount": "1 jar" },
+      { "id": "sesame-seeds", "amount": "3-4 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tsp" }
+    ],
+    "method": [
+      "Dry-toast the sesame seeds in a pan until deep brown and loudly fragrant.",
+      "Grind them to a paste in a mortar or spice grinder.",
+      "Stir into the tahini with the sesame oil. Do the whole jar at once."
+    ],
+    "uses": ["Dan dan noodles", "Bang bang chicken", "Ma jiang cold noodles", "Any liang ban dressing"],
+    "note": "Gets you to about 95% of the real thing instead of 80%.",
+    "keeps": "As long as the tahini would have"
+  },
+  {
+    "id": "toasted-rice-powder",
+    "name": "Toasted rice powder",
+    "nativeName": "ข้าวคั่ว",
+    "cuisine": "thai",
+    "region": "Isaan",
+    "category": "Building block",
+    "flavors": ["Nutty", "Smoky"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "Nutty, gritty, and it thickens a dressing without adding fat. Costs nothing and it is the whole trick behind jaew and larb.",
+    "ingredients": [
+      { "id": "rice-grains", "amount": "1/4 cup, raw" }
+    ],
+    "method": [
+      "Dry-toast raw rice in a pan over medium heat, moving constantly, until deep brown.",
+      "Cool, then grind to a coarse powder. Leave it gritty."
+    ],
+    "uses": ["Jaew", "Larb", "Nam tok"],
+    "keeps": "A month in a jar, though it fades"
+  },
+  {
+    "id": "chili-garlic-oil",
+    "name": "Chili garlic oil",
+    "nativeName": "辣油",
+    "cuisine": "chinese",
+    "region": null,
+    "category": "Chili oil",
+    "flavors": ["Spicy", "Aromatic", "Nutty"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "A rough chili crisp. Improves about half of everything else on this list.",
+    "ingredients": [
+      { "id": "neutral-oil", "amount": "1 cup" },
+      { "id": "garlic", "amount": "1 head, sliced" },
+      { "id": "dried-chili", "amount": "1/2 cup, crushed" },
+      { "id": "salt", "amount": "1 tsp" },
+      { "id": "sesame-oil", "amount": "1 tsp, off heat" },
+      { "id": "sesame-seeds", "amount": "1 tbsp", "optional": true }
+    ],
+    "method": [
+      "Heat the oil gently with the sliced garlic until the garlic is pale gold. Do not let it go brown in the pot.",
+      "Pour the hot oil over the crushed chili and salt in a heatproof bowl.",
+      "Finish with sesame oil once it has stopped sizzling."
+    ],
+    "uses": ["Noodles", "Dumplings", "Eggs", "Cold vegetables"],
+    "keeps": "Weeks, and it improves for the first few days"
+  },
+  {
+    "id": "mala-oil",
+    "name": "Mala oil",
+    "nativeName": "麻辣油",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Chili oil",
+    "flavors": ["Spicy", "Numbing", "Aromatic"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Numbing and hot. The base under dan dan noodles, mapo tofu and every cold noodle dressing worth eating.",
+    "ingredients": [
+      { "id": "neutral-oil", "amount": "1 cup" },
+      { "id": "star-anise", "amount": "2 pods" },
+      { "id": "sichuan-red", "amount": "1 tbsp" },
+      { "id": "dried-chili", "amount": "1/2 cup, crushed" },
+      { "id": "doubanjiang", "amount": "1 tbsp", "sub": "1 part doenjang + 2 parts gochugaru, used lightly" }
+    ],
+    "method": [
+      "Heat the oil with the star anise and Sichuan peppercorns until fragrant, not smoking.",
+      "Strain out the whole spices.",
+      "Pour the hot oil over the crushed chili and doubanjiang. Stir and let it settle."
+    ],
+    "uses": ["Dan dan noodles", "Mapo tofu", "Cold noodles", "Wontons"],
+    "note": "Use the sediment, not just the clear oil. The sediment is the point."
+  },
+  {
+    "id": "dumpling-dip",
+    "name": "Dumpling dipping sauce",
+    "nativeName": "餃子醬油",
+    "cuisine": "chinese",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Salty", "Umami"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "The two-ingredient standard, plus ginger if you have it.",
+    "ingredients": [
+      { "id": "black-vinegar", "amount": "2 parts", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "light-soy", "amount": "1 part" },
+      { "id": "ginger", "amount": "finely shredded", "optional": true },
+      { "id": "chili-garlic-oil", "amount": "to taste", "optional": true }
+    ],
+    "method": ["Stir together in a saucer. That is all of it."],
+    "uses": ["Dumplings", "Potstickers", "Wontons"]
+  },
+  {
+    "id": "stir-fry-sauce",
+    "name": "All-purpose stir-fry sauce",
+    "nativeName": "炒菜醬",
+    "cuisine": "chinese",
+    "region": null,
+    "category": "Stir-fry sauce",
+    "flavors": ["Salty", "Umami"],
+    "heat": 0,
+    "sweetness": 1,
+    "blurb": "The workhorse. Mix a jar and it covers weeknights indefinitely.",
+    "ingredients": [
+      { "id": "oyster-sauce", "amount": "2 parts" },
+      { "id": "light-soy", "amount": "1 part" },
+      { "id": "mirin", "amount": "1/2 part" },
+      { "id": "dark-soy", "amount": "a few drops" },
+      { "id": "sesame-oil", "amount": "1/4 tsp" },
+      { "id": "cornstarch", "amount": "slurry, to finish", "optional": true }
+    ],
+    "method": [
+      "Combine everything but the cornstarch.",
+      "Add to the wok in the last thirty seconds.",
+      "If you want it to cling, add a cornstarch slurry and let it bubble once."
+    ],
+    "uses": ["Any vegetable", "Beef and greens", "Fried rice"],
+    "note": "Dark soy is colour and a faint molasses depth, not salt. A quarter teaspoon is often right."
+  },
+  {
+    "id": "hong-shao",
+    "name": "Red-braise base",
+    "nativeName": "紅燒",
+    "cuisine": "chinese",
+    "region": null,
+    "category": "Braise base",
+    "flavors": ["Salty", "Umami", "Aromatic", "Sweet"],
+    "heat": 0,
+    "sweetness": 2,
+    "blurb": "Caramel first, then soy. The colour comes from both.",
+    "ingredients": [
+      { "id": "palm-sugar", "amount": "2 tbsp" },
+      { "id": "dark-soy", "amount": "1 tbsp" },
+      { "id": "light-soy", "amount": "3 tbsp" },
+      { "id": "ginger", "amount": "thumb, smashed" },
+      { "id": "garlic", "amount": "6 cloves, smashed" },
+      { "id": "star-anise", "amount": "2 pods" },
+      { "id": "water", "amount": "to cover" },
+      { "id": "shaoxing", "amount": "2 tbsp", "optional": true, "sub": "dry sherry" }
+    ],
+    "method": [
+      "Melt the palm sugar in a little oil until it darkens.",
+      "Add the aromatics, then the meat, and let it colour.",
+      "Add both soys and water to cover. Simmer low and long until the liquid is glossy."
+    ],
+    "uses": ["Pork belly", "Braised eggs", "Tofu", "Chicken wings"]
+  },
+  {
+    "id": "kung-pao",
+    "name": "Kung pao sauce",
+    "nativeName": "宮保",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Stir-fry sauce",
+    "flavors": ["Sour", "Spicy", "Salty", "Numbing"],
+    "heat": 2,
+    "sweetness": 2,
+    "blurb": "Your black vinegar substitute actually shines here, because the sugar in the balsamic is already part of the balance.",
+    "ingredients": [
+      { "id": "black-vinegar", "amount": "2 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "palm-sugar", "amount": "1 tbsp" },
+      { "id": "dried-chili", "amount": "8-10 whole" },
+      { "id": "sichuan-red", "amount": "1 tsp" },
+      { "id": "garlic", "amount": "3 cloves" },
+      { "id": "ginger", "amount": "same volume as garlic" },
+      { "id": "cornstarch", "amount": "1 tsp" }
+    ],
+    "method": [
+      "Bloom the whole chilies and peppercorns in oil until the chilies darken.",
+      "Add garlic and ginger, then the protein.",
+      "Pour in the premixed sauce and toss until it grips."
+    ],
+    "uses": ["Chicken", "Shrimp", "Tofu and peanuts"]
+  },
+  {
+    "id": "char-siu",
+    "name": "Char siu glaze",
+    "nativeName": "叉燒",
+    "cuisine": "chinese",
+    "region": "Guangdong",
+    "category": "Marinade",
+    "flavors": ["Sweet", "Salty", "Umami"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "Missing red fermented bean curd, but it roasts beautifully.",
+    "ingredients": [
+      { "id": "hoisin", "amount": "3 parts" },
+      { "id": "light-soy", "amount": "1 part" },
+      { "id": "palm-sugar", "amount": "1 part" },
+      { "id": "worcestershire", "amount": "splash" },
+      { "id": "five-spice", "amount": "1/2 tsp" },
+      { "id": "garlic", "amount": "grated" }
+    ],
+    "method": [
+      "Marinate pork shoulder or belly strips overnight.",
+      "Roast hot, basting twice, until the edges char."
+    ],
+    "uses": ["Pork shoulder", "Chicken thighs", "Roast pork buns"],
+    "note": "The sweetest thing on this list. Cut the palm sugar by half if that matters to you."
+  },
+  {
+    "id": "ginger-scallion",
+    "name": "Ginger scallion sauce",
+    "nativeName": "薑蔥醬",
+    "cuisine": "chinese",
+    "region": "Guangdong",
+    "category": "Condiment",
+    "flavors": ["Aromatic", "Pungent", "Salty"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "Three ingredients and hot oil. Goes on poached chicken, rice, noodles, fish, everything.",
+    "ingredients": [
+      { "id": "ginger", "amount": "1/4 cup, minced" },
+      { "id": "scallion", "amount": "1 bunch, finely sliced" },
+      { "id": "garlic", "amount": "2 cloves, minced", "optional": true },
+      { "id": "salt", "amount": "1 tsp" },
+      { "id": "neutral-oil", "amount": "1/3 cup, smoking hot" },
+      { "id": "sesame-oil", "amount": "1 tsp, at the end" }
+    ],
+    "method": [
+      "Combine ginger, scallion, garlic and salt in a heatproof bowl.",
+      "Pour smoking oil over. It should hiss hard.",
+      "Stir in sesame oil once it settles."
+    ],
+    "uses": ["Poached chicken", "Steamed fish", "Plain rice"],
+    "keeps": "A week, refrigerated"
+  },
+  {
+    "id": "yu-xiang",
+    "name": "Fish-fragrant sauce",
+    "nativeName": "魚香",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Stir-fry sauce",
+    "flavors": ["Sour", "Spicy", "Umami", "Pungent"],
+    "heat": 2,
+    "sweetness": 1,
+    "blurb": "No fish in it. Traditionally sugar-balanced, but taken down to a third the vinegar leads and it suits you better.",
+    "ingredients": [
+      { "id": "doubanjiang", "amount": "1.5 tbsp", "sub": "1 part doenjang + 2 parts gochugaru, used sparingly" },
+      { "id": "black-vinegar", "amount": "1.5 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "light-soy", "amount": "1 tbsp" },
+      { "id": "palm-sugar", "amount": "1 tsp" },
+      { "id": "garlic", "amount": "4 cloves, minced" },
+      { "id": "ginger", "amount": "1 tbsp, minced" },
+      { "id": "scallion", "amount": "3, sliced" },
+      { "id": "cornstarch", "amount": "1 tsp" }
+    ],
+    "method": [
+      "Fry the doubanjiang in oil until the oil turns red.",
+      "Add garlic, ginger and scallion whites for thirty seconds.",
+      "Add the premixed liquid, bubble, then finish with scallion greens."
+    ],
+    "uses": ["Eggplant", "Pork slivers", "Tofu"]
+  },
+  {
+    "id": "zhajiang",
+    "name": "Zhajiang",
+    "nativeName": "炸醬",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Noodle sauce",
+    "flavors": ["Salty", "Umami", "Funky"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Salty, dark and not sweet. Cook it until the oil separates and comes back up.",
+    "ingredients": [
+      { "id": "doubanjiang", "amount": "2 tbsp", "sub": "1 part doenjang + 2 parts gochugaru" },
+      { "id": "hoisin", "amount": "1 tbsp" },
+      { "id": "pork", "amount": "300g, minced" },
+      { "id": "garlic", "amount": "4 cloves" },
+      { "id": "ginger", "amount": "1 tbsp" },
+      { "id": "light-soy", "amount": "1 tbsp" },
+      { "id": "scallion", "amount": "to finish" }
+    ],
+    "method": [
+      "Brown the pork hard until it is properly crisp at the edges.",
+      "Add aromatics, then the pastes, and cook down slowly.",
+      "It is ready when the oil separates and pools red at the edge."
+    ],
+    "uses": ["Noodles", "Rice", "Cucumber on the side"]
+  },
+  {
+    "id": "liang-ban",
+    "name": "Cold vegetable dressing",
+    "nativeName": "涼拌",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Dressing",
+    "flavors": ["Sour", "Spicy", "Numbing", "Citrus"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Smash a cucumber with the flat of a knife, salt it, drain it, and toss it in this.",
+    "ingredients": [
+      { "id": "black-vinegar", "amount": "2 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "chili-garlic-oil", "amount": "1 tbsp with sediment" },
+      { "id": "garlic", "amount": "3 cloves, grated" },
+      { "id": "sichuan-green", "amount": "1/2 tsp, toasted and crushed" },
+      { "id": "msg", "amount": "a pinch" },
+      { "id": "light-soy", "amount": "1 tsp" }
+    ],
+    "method": [
+      "Whisk together and let it stand ten minutes so the garlic softens.",
+      "Toss through cold vegetables just before serving."
+    ],
+    "uses": ["Smashed cucumber", "Blanched greens", "Cold tofu", "Wood ear mushrooms"]
+  },
+  {
+    "id": "kou-shui-ji",
+    "name": "Mouth-watering chicken dressing",
+    "nativeName": "口水雞",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Dressing",
+    "flavors": ["Spicy", "Numbing", "Sour", "Nutty"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Nominally has a little sugar in it. Leave it out and the vinegar and peppercorn carry it.",
+    "ingredients": [
+      { "id": "chili-garlic-oil", "amount": "3 tbsp with sediment" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "black-vinegar", "amount": "1 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "garlic", "amount": "3 cloves, grated" },
+      { "id": "sichuan-green", "amount": "1 tsp, crushed" },
+      { "id": "sesame-seeds", "amount": "1 tbsp, toasted" },
+      { "id": "msg", "amount": "a pinch" },
+      { "id": "scallion", "amount": "to finish" }
+    ],
+    "method": [
+      "Poach chicken gently and cool it in its own liquid.",
+      "Tear by hand, pile on a plate, flood with the dressing."
+    ],
+    "uses": ["Poached chicken", "Cold noodles underneath"]
+  },
+  {
+    "id": "suan-la",
+    "name": "Hot and sour base",
+    "nativeName": "酸辣",
+    "cuisine": "chinese",
+    "region": null,
+    "category": "Soup base",
+    "flavors": ["Sour", "Pungent", "Umami"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "In Chinese cooking the hot in hot and sour is white pepper, not chili. This is where your white peppercorns matter.",
+    "ingredients": [
+      { "id": "black-vinegar", "amount": "3 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "white-pepper", "amount": "1.5 tsp, freshly ground, more than feels right" },
+      { "id": "msg", "amount": "1/2 tsp" },
+      { "id": "cornstarch", "amount": "slurry", "optional": true }
+    ],
+    "method": [
+      "Build a stock with mushrooms and tofu if making soup, then season with this at the end.",
+      "Vinegar and pepper both fade with heat. Add half at the start and half off the heat."
+    ],
+    "uses": ["Hot and sour soup", "Sweet potato noodles", "Dressing for blanched greens"]
+  },
+  {
+    "id": "dan-dan",
+    "name": "Dan dan sauce",
+    "nativeName": "擔擔麵",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Noodle sauce",
+    "flavors": ["Nutty", "Spicy", "Numbing", "Sour"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Loosen with hot noodle water, not more oil. Barely any sugar belongs in it.",
+    "ingredients": [
+      { "id": "tahini", "amount": "2 tbsp, corrected with toasted seeds" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "chili-garlic-oil", "amount": "2 tbsp with sediment" },
+      { "id": "black-vinegar", "amount": "1 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "sichuan-green", "amount": "1 tsp, crushed" },
+      { "id": "garlic", "amount": "2 cloves, grated" },
+      { "id": "msg", "amount": "a pinch" },
+      { "id": "ya-cai", "amount": "2 tbsp, fried with pork", "optional": true }
+    ],
+    "method": [
+      "Whisk the sesame paste with the soy first, adding hot water a spoon at a time until smooth.",
+      "Stir in everything else.",
+      "Pool it in the bottom of the bowl and drop hot noodles on top. Toss at the table."
+    ],
+    "uses": ["Wheat noodles", "Blanched greens"],
+    "note": "Without ya cai you have sesame noodles, which is a different and lesser dish."
+  },
+  {
+    "id": "bang-bang-ji",
+    "name": "Bang bang chicken dressing",
+    "nativeName": "棒棒雞絲",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Dressing",
+    "flavors": ["Nutty", "Sour", "Spicy"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "The cold version of dan dan, and sharper: more vinegar, more chili oil, thinner.",
+    "ingredients": [
+      { "id": "tahini", "amount": "2 tbsp, corrected" },
+      { "id": "black-vinegar", "amount": "2 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "light-soy", "amount": "1 tbsp" },
+      { "id": "chili-garlic-oil", "amount": "2 tbsp" },
+      { "id": "garlic", "amount": "2 cloves" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "cucumber", "amount": "1, julienned" },
+      { "id": "chicken", "amount": "poached, torn by hand" }
+    ],
+    "method": [
+      "Lay cucumber down first, chicken on top, dressing over.",
+      "Do not slice the chicken. Tearing gives the sauce something to hold."
+    ],
+    "uses": ["Poached chicken", "Cold noodles"]
+  },
+  {
+    "id": "ma-jiang-noodles",
+    "name": "Sesame paste cold noodles",
+    "nativeName": "麻醬涼麵",
+    "cuisine": "chinese",
+    "region": null,
+    "category": "Noodle sauce",
+    "flavors": ["Nutty", "Sour", "Salty"],
+    "heat": 1,
+    "sweetness": 0,
+    "blurb": "Summer food. Make it in the morning, eat it cold at two in the afternoon.",
+    "ingredients": [
+      { "id": "tahini", "amount": "3 tbsp, corrected" },
+      { "id": "black-vinegar", "amount": "1.5 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "sesame-oil", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "2 cloves, grated" },
+      { "id": "scallion", "amount": "2, sliced" },
+      { "id": "chili-garlic-oil", "amount": "to taste" },
+      { "id": "msg", "amount": "a pinch" },
+      { "id": "light-soy", "amount": "1 tbsp" }
+    ],
+    "method": [
+      "Thin the paste with cold water until it ribbons off the spoon.",
+      "Toss with cold noodles and shredded cucumber."
+    ],
+    "uses": ["Cold wheat noodles", "Cucumber", "Shredded chicken"]
+  },
+  {
+    "id": "sichuan-cold-dressing",
+    "name": "Sichuan cold noodle dressing",
+    "nativeName": "涼麵汁",
+    "cuisine": "chinese",
+    "region": "Sichuan",
+    "category": "Dressing",
+    "flavors": ["Sour", "Citrus", "Numbing", "Spicy"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Sour, citrusy and tingling. Squarely built for a palate that wants sour and hot and nothing sweet.",
+    "ingredients": [
+      { "id": "black-vinegar", "amount": "3 tbsp", "sub": "3 balsamic : 1 rice vinegar" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "chili-garlic-oil", "amount": "2 tbsp" },
+      { "id": "garlic", "amount": "3 cloves" },
+      { "id": "sichuan-green", "amount": "1 tsp, toasted and crushed" },
+      { "id": "msg", "amount": "1/4 tsp" }
+    ],
+    "method": [
+      "Toast the green peppercorns until they smell like lime peel, then crush.",
+      "Whisk everything and let it sit fifteen minutes before using."
+    ],
+    "uses": ["Cold noodles", "Blanched bean sprouts", "Cold chicken"],
+    "note": "Green Sichuan peppercorn is far more citrusy than the red. Use it where you would want lime zest."
+  },
+  {
+    "id": "tonkatsu",
+    "name": "Tonkatsu and okonomiyaki sauce",
+    "nativeName": "とんかつソース",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Sweet", "Sour", "Umami"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "The best trick in the pantry. A1 is structurally close to Bulldog sauce: tomato, vinegar, fruit puree.",
+    "ingredients": [
+      { "id": "a1-sauce", "amount": "2 parts" },
+      { "id": "hoisin", "amount": "1 part" },
+      { "id": "worcestershire", "amount": "1 part" },
+      { "id": "palm-sugar", "amount": "a pinch" }
+    ],
+    "method": [
+      "Stir together cold.",
+      "For okonomiyaki, push it sweeter with more hoisin. For katsu, leave it sharp."
+    ],
+    "uses": ["Pork katsu", "Okonomiyaki", "Croquettes", "Fried egg sandwiches"]
+  },
+  {
+    "id": "yakisoba",
+    "name": "Yakisoba sauce",
+    "nativeName": "焼きそばソース",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Stir-fry sauce",
+    "flavors": ["Umami", "Sweet", "Salty"],
+    "heat": 0,
+    "sweetness": 2,
+    "blurb": "Worcestershire-led, because that is genuinely what it is.",
+    "ingredients": [
+      { "id": "worcestershire", "amount": "2 parts" },
+      { "id": "hoisin", "amount": "1 part" },
+      { "id": "light-soy", "amount": "1 part" },
+      { "id": "palm-sugar", "amount": "1 tsp" }
+    ],
+    "method": ["Mix, then toss with the noodles in the last twenty seconds so it catches on the pan."],
+    "uses": ["Yakisoba", "Cabbage and pork", "Fried noodles generally"]
+  },
+  {
+    "id": "teriyaki",
+    "name": "Teriyaki glaze",
+    "nativeName": "照り焼き",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Glaze",
+    "flavors": ["Sweet", "Salty", "Umami"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "Now that you have real mirin, the honest ratio works.",
+    "ingredients": [
+      { "id": "light-soy", "amount": "1 part" },
+      { "id": "mirin", "amount": "1 part" },
+      { "id": "sake", "amount": "1 part", "optional": true, "sub": "water" },
+      { "id": "palm-sugar", "amount": "to taste" }
+    ],
+    "method": [
+      "Simmer until it coats the back of a spoon.",
+      "Brush on in the last minutes of cooking, not before, or it burns."
+    ],
+    "uses": ["Chicken thighs", "Salmon", "Unagi-style eel or mackerel"]
+  },
+  {
+    "id": "goma-dare",
+    "name": "Goma dare",
+    "nativeName": "胡麻だれ",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Nutty", "Umami", "Sour"],
+    "heat": 0,
+    "sweetness": 1,
+    "blurb": "This one wants restraint, not chili.",
+    "ingredients": [
+      { "id": "tahini", "amount": "3 tbsp, corrected" },
+      { "id": "rice-vinegar", "amount": "1 tbsp" },
+      { "id": "light-soy", "amount": "1.5 tbsp" },
+      { "id": "mirin", "amount": "1 tsp" },
+      { "id": "stock", "amount": "to loosen", "sub": "dashi or water" }
+    ],
+    "method": ["Whisk the paste with the liquids gradually until it pours smoothly."],
+    "uses": ["Shabu-shabu", "Blanched spinach", "Cold noodles", "Steamed eggplant"]
+  },
+  {
+    "id": "nanbanzuke",
+    "name": "Nanbanzuke",
+    "nativeName": "南蛮漬け",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Marinade",
+    "flavors": ["Sour", "Salty", "Aromatic"],
+    "heat": 1,
+    "sweetness": 1,
+    "blurb": "Japanese escabeche. Fry it hot, drown it, eat it cold the next day.",
+    "ingredients": [
+      { "id": "rice-vinegar", "amount": "1/2 cup" },
+      { "id": "light-soy", "amount": "3 tbsp" },
+      { "id": "mirin", "amount": "2 tbsp, halved for a sharper version" },
+      { "id": "fresh-chili", "amount": "1, sliced" },
+      { "id": "scallion", "amount": "2, in lengths" },
+      { "id": "onion", "amount": "1/2, sliced thin" },
+      { "id": "fish", "amount": "or chicken, floured and fried" }
+    ],
+    "method": [
+      "Fry the fish or chicken until crisp.",
+      "Drop it straight into the warm marinade with the vegetables.",
+      "Refrigerate overnight. It is better on day two."
+    ],
+    "uses": ["Small oily fish", "Chicken thigh", "Fried tofu"],
+    "note": "Red wine vinegar works better than balsamic here if you want it drier."
+  },
+  {
+    "id": "yuzu-kosho-cheat",
+    "name": "Yuzu kosho, approximated",
+    "nativeName": "柚子胡椒 (代)",
+    "cuisine": "japanese",
+    "region": "Kyushu",
+    "category": "Condiment",
+    "flavors": ["Citrus", "Spicy", "Salty"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Not the real thing without yuzu zest, but it hits the same citrus-salt-heat note and goes on everything.",
+    "ingredients": [
+      { "id": "fresh-chili", "amount": "6-8, stemmed" },
+      { "id": "salt", "amount": "2 tsp" },
+      { "id": "yuzu-ponzu", "amount": "1 tbsp" }
+    ],
+    "method": [
+      "Mince the chilies with the salt until they break down.",
+      "Mash to a paste with the ponzu.",
+      "Jar it and leave three days before using."
+    ],
+    "uses": ["Grilled fish", "Noodle soups", "Steak", "Stirred into dressings"],
+    "keeps": "Months, refrigerated"
+  },
+  {
+    "id": "ponzu-chili-ginger",
+    "name": "Ponzu with chili and ginger",
+    "nativeName": "ポン酢",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Citrus", "Sour", "Salty"],
+    "heat": 1,
+    "sweetness": 0,
+    "blurb": "Two minutes, and your ponzu is doing a lot of unglamorous work.",
+    "ingredients": [
+      { "id": "yuzu-ponzu", "amount": "3 tbsp" },
+      { "id": "ginger", "amount": "1 tsp, grated" },
+      { "id": "fresh-chili", "amount": "1, sliced thin" },
+      { "id": "scallion", "amount": "1, sliced" }
+    ],
+    "method": ["Combine. Serve within the hour while the ginger is still sharp."],
+    "uses": ["Gyoza", "Cold tofu", "Seared fish", "Blanched greens"]
+  },
+  {
+    "id": "sesame-ginger-dressing",
+    "name": "Sesame ginger dressing",
+    "nativeName": "生姜ドレッシング",
+    "cuisine": "japanese",
+    "region": null,
+    "category": "Dressing",
+    "flavors": ["Sour", "Aromatic", "Nutty"],
+    "heat": 0,
+    "sweetness": 1,
+    "blurb": "The one to make when you want a salad to taste like something.",
+    "ingredients": [
+      { "id": "rice-vinegar", "amount": "3 tbsp" },
+      { "id": "light-soy", "amount": "1.5 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "ginger", "amount": "1 tbsp, grated" },
+      { "id": "garlic", "amount": "1 clove, grated" },
+      { "id": "palm-sugar", "amount": "1 tsp" },
+      { "id": "neutral-oil", "amount": "3 tbsp" }
+    ],
+    "method": ["Shake in a jar. It splits, so shake again before pouring."],
+    "uses": ["Cabbage salad", "Cold noodles", "Grilled chicken"]
+  },
+  {
+    "id": "ssamjang",
+    "name": "Ssamjang",
+    "nativeName": "쌈장",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Funky", "Salty", "Umami", "Spicy"],
+    "heat": 1,
+    "sweetness": 1,
+    "blurb": "The real recipe, now that the doenjang is confirmed. This is what makes it taste Korean rather than Chinese.",
+    "ingredients": [
+      { "id": "doenjang", "amount": "2 parts" },
+      { "id": "gochujang", "amount": "1 part" },
+      { "id": "garlic", "amount": "2 cloves, minced" },
+      { "id": "scallion", "amount": "2, finely sliced" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "sesame-seeds", "amount": "1 tbsp, toasted" },
+      { "id": "onion", "amount": "1 tbsp, chopped", "optional": true }
+    ],
+    "method": ["Mash together. Add the onion if you want texture rather than a smooth paste."],
+    "uses": ["Lettuce wraps", "Grilled pork belly", "Raw vegetables", "Rice"],
+    "keeps": "Two weeks, refrigerated"
+  },
+  {
+    "id": "bulgogi",
+    "name": "Bulgogi marinade",
+    "nativeName": "불고기",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Marinade",
+    "flavors": ["Sweet", "Salty", "Aromatic"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "Grated apple or pear tenderises and rounds it out, if you can get one.",
+    "ingredients": [
+      { "id": "light-soy", "amount": "4 tbsp" },
+      { "id": "mirin", "amount": "2 tbsp" },
+      { "id": "palm-sugar", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "6 cloves, grated" },
+      { "id": "ginger", "amount": "1 tsp, grated" },
+      { "id": "sesame-oil", "amount": "1 tbsp" },
+      { "id": "scallion", "amount": "3, sliced" },
+      { "id": "apple-pear", "amount": "1/2, grated", "optional": true }
+    ],
+    "method": [
+      "Marinate thin-sliced beef two hours or overnight.",
+      "Cook fast over high heat so the sugar caramelises rather than stews."
+    ],
+    "uses": ["Thin beef", "Pork shoulder", "Mushrooms"]
+  },
+  {
+    "id": "yangnyeomjang",
+    "name": "Yangnyeomjang",
+    "nativeName": "양념장",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Salty", "Spicy", "Aromatic", "Sour"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "The Korean equivalent of sawsawan. Make it weekly and put it on everything.",
+    "ingredients": [
+      { "id": "light-soy", "amount": "4 tbsp" },
+      { "id": "gochugaru", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "2 cloves, minced" },
+      { "id": "scallion", "amount": "3, chopped" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "sesame-seeds", "amount": "1 tbsp" },
+      { "id": "rice-vinegar", "amount": "1 tbsp" }
+    ],
+    "method": ["Stir together and leave twenty minutes for the gochugaru to swell and go red."],
+    "uses": ["Rice", "Tofu", "Fried eggs", "Grilled fish", "Steamed vegetables"],
+    "keeps": "A week, refrigerated"
+  },
+  {
+    "id": "oi-muchim",
+    "name": "Oi muchim",
+    "nativeName": "오이무침",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Side dish",
+    "flavors": ["Sour", "Spicy", "Salty", "Funky"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Sour, hot, cold, and not sweet. Squarely your palate.",
+    "ingredients": [
+      { "id": "cucumber", "amount": "2, sliced or smashed" },
+      { "id": "salt", "amount": "1 tsp, for drawing out water" },
+      { "id": "gochugaru", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "2 cloves, grated" },
+      { "id": "rice-vinegar", "amount": "1 tbsp" },
+      { "id": "fish-sauce", "amount": "2 tsp" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "sesame-seeds", "amount": "1 tsp" }
+    ],
+    "method": [
+      "Salt the cucumber, wait twenty minutes, squeeze out the water.",
+      "Toss with everything else. Eat within the hour."
+    ],
+    "uses": ["Side dish", "With grilled meat", "On rice"]
+  },
+  {
+    "id": "geotjeori",
+    "name": "Geotjeori",
+    "nativeName": "겉절이",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Side dish",
+    "flavors": ["Spicy", "Funky", "Salty", "Sour"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Fresh unfermented kimchi. All the flavour, none of the waiting.",
+    "ingredients": [
+      { "id": "napa-cabbage", "amount": "1 small head" },
+      { "id": "salt", "amount": "3 tbsp, for salting" },
+      { "id": "gochugaru", "amount": "4 tbsp" },
+      { "id": "fish-sauce", "amount": "2 tbsp" },
+      { "id": "garlic", "amount": "6 cloves, grated" },
+      { "id": "ginger", "amount": "1 tsp, grated" },
+      { "id": "scallion", "amount": "4, in lengths" },
+      { "id": "msg", "amount": "1/2 tsp" }
+    ],
+    "method": [
+      "Salt the cut cabbage for an hour, then rinse and drain hard.",
+      "Toss with everything else using your hands.",
+      "Eat the same day."
+    ],
+    "uses": ["Side dish", "With grilled pork", "In fried rice the next day"]
+  },
+  {
+    "id": "bibim-cut",
+    "name": "Bibim sauce, sugar cut",
+    "nativeName": "비빔장",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Dressing",
+    "flavors": ["Spicy", "Sour", "Umami"],
+    "heat": 2,
+    "sweetness": 1,
+    "blurb": "The standard recipe is sugar-heavy. Drop it entirely, let vinegar carry, and it turns into a sour-spicy dressing.",
+    "ingredients": [
+      { "id": "gochujang", "amount": "3 tbsp" },
+      { "id": "gochugaru", "amount": "1 tsp" },
+      { "id": "rice-vinegar", "amount": "2 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "2 cloves, grated" }
+    ],
+    "method": ["Whisk. Thin with a spoon of water if it is too stiff to toss."],
+    "uses": ["Bibimbap", "Cold noodles", "Squid or vegetables"]
+  },
+  {
+    "id": "jjigae-base",
+    "name": "Red stew base",
+    "nativeName": "찌개 양념",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Soup base",
+    "flavors": ["Spicy", "Funky", "Umami"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Blooming the gochugaru in oil is what makes it taste red instead of dusty.",
+    "ingredients": [
+      { "id": "gochugaru", "amount": "2 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "4 cloves" },
+      { "id": "doenjang", "amount": "1 tbsp" },
+      { "id": "gochujang", "amount": "1 tbsp" },
+      { "id": "stock", "amount": "500ml" },
+      { "id": "tofu", "amount": "1 block" }
+    ],
+    "method": [
+      "Bloom the gochugaru in sesame oil with the garlic over low heat until the oil goes red.",
+      "Stir in the pastes, then add stock.",
+      "Simmer, add tofu and whatever vegetable is around."
+    ],
+    "uses": ["Tofu stew", "Pork and kimchi stew", "Seafood stew"]
+  },
+  {
+    "id": "doenjang-jjigae",
+    "name": "Doenjang jjigae",
+    "nativeName": "된장찌개",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Soup base",
+    "flavors": ["Funky", "Salty", "Umami"],
+    "heat": 1,
+    "sweetness": 0,
+    "blurb": "Salty and deeply funky with zero sweetness. Squarely your thing.",
+    "ingredients": [
+      { "id": "doenjang", "amount": "3 tbsp" },
+      { "id": "garlic", "amount": "4 cloves, minced" },
+      { "id": "stock", "amount": "600ml", "sub": "anchovy stock is correct, plain works" },
+      { "id": "tofu", "amount": "1 block, cubed" },
+      { "id": "gochugaru", "amount": "1 tsp", "optional": true },
+      { "id": "scallion", "amount": "to finish" }
+    ],
+    "method": [
+      "Whisk the doenjang into the stock so it dissolves before it boils.",
+      "Simmer fifteen minutes with the garlic, then add tofu and vegetables.",
+      "Finish with scallion off the heat."
+    ],
+    "uses": ["Weeknight stew with rice"]
+  },
+  {
+    "id": "namul",
+    "name": "Namul seasoning",
+    "nativeName": "나물",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Side dish",
+    "flavors": ["Funky", "Nutty", "Salty"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "The quiet unlock. Five minutes, and it is the reason Korean side dishes taste the way they do.",
+    "ingredients": [
+      { "id": "spinach", "amount": "1 bunch, blanched and squeezed" },
+      { "id": "doenjang", "amount": "1 tsp" },
+      { "id": "garlic", "amount": "1 clove, grated" },
+      { "id": "sesame-oil", "amount": "2 tsp" },
+      { "id": "sesame-seeds", "amount": "1 tsp" }
+    ],
+    "method": [
+      "Blanch the vegetable briefly, shock it cold, squeeze out every drop of water.",
+      "Toss with the seasoning using your hands."
+    ],
+    "uses": ["Spinach", "Bean sprouts", "Zucchini", "Any blanched green"]
+  },
+  {
+    "id": "doenjang-vinaigrette",
+    "name": "Doenjang vinaigrette",
+    "nativeName": "된장 소스",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Dressing",
+    "flavors": ["Funky", "Sour", "Salty"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "Cuts through grilled meat and roasted vegetables better than anything else in the pantry.",
+    "ingredients": [
+      { "id": "doenjang", "amount": "1 tbsp" },
+      { "id": "rice-vinegar", "amount": "2 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tbsp" },
+      { "id": "garlic", "amount": "1 clove, grated" },
+      { "id": "water", "amount": "1-2 tbsp, to loosen" }
+    ],
+    "method": ["Whisk the doenjang with the vinegar first, then the oil, then water to the thickness you want."],
+    "uses": ["Roasted vegetables", "Grilled meat", "Green salad", "Boiled potatoes"]
+  },
+  {
+    "id": "doenjang-marinade",
+    "name": "Doenjang marinade",
+    "nativeName": "된장 양념",
+    "cuisine": "korean",
+    "region": null,
+    "category": "Marinade",
+    "flavors": ["Funky", "Umami", "Aromatic"],
+    "heat": 0,
+    "sweetness": 1,
+    "blurb": "Grill or roast hard so the paste chars. The char is the reason to make it.",
+    "ingredients": [
+      { "id": "doenjang", "amount": "3 tbsp" },
+      { "id": "garlic", "amount": "4 cloves, grated" },
+      { "id": "ginger", "amount": "1 tsp" },
+      { "id": "mirin", "amount": "2 tbsp" },
+      { "id": "sesame-oil", "amount": "1 tbsp" },
+      { "id": "pork", "amount": "belly or chicken thigh" }
+    ],
+    "method": [
+      "Coat and marinate at least four hours.",
+      "Wipe off the excess before it hits the heat, or it burns before the meat cooks."
+    ],
+    "uses": ["Pork belly", "Chicken thighs", "Thick fish steaks", "Eggplant"]
+  },
+  {
+    "id": "doenjang-butter",
+    "name": "Doenjang butter",
+    "nativeName": null,
+    "cuisine": "korean",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Funky", "Umami", "Salty"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "Not Korean, not traditional, and worth making anyway. Miso butter's angrier cousin.",
+    "ingredients": [
+      { "id": "doenjang", "amount": "1 tbsp" },
+      { "id": "butter", "amount": "100g, softened" },
+      { "id": "garlic", "amount": "1 clove, grated", "optional": true }
+    ],
+    "method": ["Mash together, roll in paper, refrigerate. Slice off coins as needed."],
+    "uses": ["Corn", "Steak", "Noodles", "Toast"],
+    "keeps": "Two weeks refrigerated, months frozen"
+  },
+  {
+    "id": "gochujang-tahini",
+    "name": "Gochujang tahini dressing",
+    "nativeName": null,
+    "cuisine": "korean",
+    "region": null,
+    "category": "Dressing",
+    "flavors": ["Spicy", "Nutty", "Sour"],
+    "heat": 2,
+    "sweetness": 1,
+    "blurb": "Not traditional anywhere. The tahini kills gochujang's sweetness, which is exactly what you want it to do.",
+    "ingredients": [
+      { "id": "gochujang", "amount": "2 tbsp" },
+      { "id": "tahini", "amount": "2 tbsp" },
+      { "id": "rice-vinegar", "amount": "2 tbsp" },
+      { "id": "garlic", "amount": "1 clove, grated" },
+      { "id": "sesame-oil", "amount": "1 tsp" },
+      { "id": "water", "amount": "to loosen" }
+    ],
+    "method": ["Whisk, adding water last until it drizzles."],
+    "uses": ["Roasted vegetables", "Cold noodles", "Grain bowls", "Roasted cauliflower"]
+  },
+  {
+    "id": "nuoc-mau",
+    "name": "Vietnamese caramel",
+    "nativeName": "nước màu",
+    "cuisine": "vietnamese",
+    "region": null,
+    "category": "Braise base",
+    "flavors": ["Umami", "Salty", "Smoky", "Sweet"],
+    "heat": 0,
+    "sweetness": 2,
+    "blurb": "Two ingredients, enormous payoff. Take the caramel darker than feels comfortable.",
+    "ingredients": [
+      { "id": "palm-sugar", "amount": "1/2 cup" },
+      { "id": "water", "amount": "1/4 cup, to stop it" },
+      { "id": "fish-sauce", "amount": "roughly equal to the finished caramel" }
+    ],
+    "method": [
+      "Melt the palm sugar dry over medium heat until it goes dark amber and just starts to smell bitter.",
+      "Kill the heat with water, standing back.",
+      "Add fish sauce roughly one to one with the caramel."
+    ],
+    "uses": ["Thit kho (pork and eggs)", "Ca kho (fish)", "Braised chicken"],
+    "note": "The bitterness at the edge of the caramel is what keeps the dish from being sweet."
+  },
+  {
+    "id": "nuoc-cham",
+    "name": "Nuoc cham",
+    "nativeName": "nước chấm",
+    "cuisine": "vietnamese",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Citrus", "Salty", "Spicy"],
+    "heat": 1,
+    "sweetness": 2,
+    "blurb": "Adjust until it tastes like something you could drink.",
+    "ingredients": [
+      { "id": "fish-sauce", "amount": "1 part" },
+      { "id": "palm-sugar", "amount": "1 part" },
+      { "id": "rice-vinegar", "amount": "1 part", "sub": "yuzu ponzu for the citrus note" },
+      { "id": "water", "amount": "3-4 parts" },
+      { "id": "garlic", "amount": "1 clove, minced" },
+      { "id": "fresh-chili", "amount": "1, sliced" }
+    ],
+    "method": [
+      "Dissolve the sugar in warm water first.",
+      "Add everything else and taste. It should be balanced, not sharp."
+    ],
+    "uses": ["Rice noodle bowls", "Spring rolls", "Grilled pork", "Banh xeo"],
+    "note": "Cut the sugar by half and push the citrus if you want it sour-forward."
+  },
+  {
+    "id": "muoi-ot-xanh",
+    "name": "Green chili salt",
+    "nativeName": "muối ớt xanh",
+    "cuisine": "vietnamese",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Spicy", "Citrus", "Salty"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Violent, citrusy, addictive. The best thing that has ever happened to grilled squid.",
+    "ingredients": [
+      { "id": "fresh-chili", "amount": "8 green, stemmed" },
+      { "id": "salt", "amount": "1 tbsp" },
+      { "id": "msg", "amount": "1/2 tsp" },
+      { "id": "yuzu-ponzu", "amount": "2 tbsp", "sub": "lime juice is correct" },
+      { "id": "cilantro", "amount": "small handful", "optional": true }
+    ],
+    "method": ["Blitz everything to a rough green paste. Do not make it smooth."],
+    "uses": ["Grilled squid", "Prawns", "Grilled chicken", "Any seafood"]
+  },
+  {
+    "id": "nam-jim",
+    "name": "Nam jim",
+    "nativeName": "น้ำจิ้ม",
+    "cuisine": "thai",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Citrus", "Spicy", "Salty"],
+    "heat": 3,
+    "sweetness": 1,
+    "blurb": "Sharper and more aromatic than nuoc cham, and it wants to be made fresh.",
+    "ingredients": [
+      { "id": "fish-sauce", "amount": "2 tbsp" },
+      { "id": "palm-sugar", "amount": "1 tbsp" },
+      { "id": "yuzu-ponzu", "amount": "3 tbsp", "sub": "lime juice is correct" },
+      { "id": "fresh-chili", "amount": "3, minced" },
+      { "id": "garlic", "amount": "3 cloves, minced" },
+      { "id": "cilantro", "amount": "stems, minced", "optional": true }
+    ],
+    "method": [
+      "Pound the garlic and chili in a mortar, or mince very fine.",
+      "Stir in the liquids. Taste for sour first, then salt, then sweet."
+    ],
+    "uses": ["Grilled seafood", "Steamed fish", "Grilled pork neck", "Raw vegetables"]
+  },
+  {
+    "id": "jaew",
+    "name": "Jaew",
+    "nativeName": "แจ่ว",
+    "cuisine": "thai",
+    "region": "Isaan",
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Citrus", "Spicy", "Smoky", "Nutty"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Probably the best fit on this entire list for a palate that wants sour, citrus and heat with no sugar.",
+    "ingredients": [
+      { "id": "fish-sauce", "amount": "3 tbsp" },
+      { "id": "yuzu-ponzu", "amount": "3 tbsp", "sub": "lime juice is correct" },
+      { "id": "dried-chili", "amount": "1 tbsp, toasted and flaked" },
+      { "id": "scallion", "amount": "3, finely sliced" },
+      { "id": "rice-grains", "amount": "1 tbsp toasted rice powder" },
+      { "id": "cilantro", "amount": "handful", "optional": true },
+      { "id": "palm-sugar", "amount": "1/2 tsp", "optional": true }
+    ],
+    "method": [
+      "Toast raw rice in a dry pan until deep brown, then grind coarse.",
+      "Combine everything and let it sit ten minutes so the rice powder swells.",
+      "It should be thick enough to cling to grilled meat."
+    ],
+    "uses": ["Grilled beef", "Sticky rice", "Grilled pork neck", "Roast chicken"],
+    "note": "The toasted rice powder is the whole trick. Nutty, gritty, and it thickens without fat."
+  },
+  {
+    "id": "prik-nam-pla",
+    "name": "Prik nam pla",
+    "nativeName": "พริกน้ำปลา",
+    "cuisine": "thai",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Salty", "Spicy", "Citrus"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Sits on every table in Thailand. Make it and put it on eggs.",
+    "ingredients": [
+      { "id": "fish-sauce", "amount": "4 tbsp" },
+      { "id": "fresh-chili", "amount": "4 bird chilies, sliced" },
+      { "id": "garlic", "amount": "2 cloves, sliced" },
+      { "id": "yuzu-ponzu", "amount": "1 tbsp", "sub": "lime juice is correct" }
+    ],
+    "method": ["Combine in a small bowl. It is ready immediately and better after an hour."],
+    "uses": ["Fried eggs", "Rice", "Any Thai dish that needs sharpening", "Fried fish"],
+    "keeps": "Days, though the chili dulls"
+  },
+  {
+    "id": "sinamak",
+    "name": "Sinamak",
+    "nativeName": "sinamak",
+    "cuisine": "filipino",
+    "region": "Iloilo",
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Spicy", "Pungent", "Aromatic"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "Ilonggo spiced vinegar, and your peppercorn collection is made for it. It gets sharper and better for months.",
+    "ingredients": [
+      { "id": "cider-vinegar", "amount": "500ml", "sub": "cane vinegar is correct; rice vinegar also works" },
+      { "id": "garlic", "amount": "1 head, smashed" },
+      { "id": "ginger", "amount": "thumb, sliced" },
+      { "id": "fresh-chili", "amount": "a fistful, whole" },
+      { "id": "black-pepper", "amount": "1 tbsp mixed whole peppercorns" },
+      { "id": "green-peppercorn", "amount": "included in the mix" }
+    ],
+    "method": [
+      "Pack everything into a jar and cover with vinegar.",
+      "Leave two weeks before touching it.",
+      "Top up with vinegar as you use it."
+    ],
+    "uses": ["Fried fish", "Lechon kawali", "Longganisa", "Anything rich"],
+    "keeps": "Indefinitely, and it improves"
+  },
+  {
+    "id": "toyomansi",
+    "name": "Toyomansi",
+    "nativeName": "toyomansi",
+    "cuisine": "filipino",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Salty", "Citrus", "Spicy"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Two minutes, and it is the default dip for grilled meat and fried fish.",
+    "ingredients": [
+      { "id": "light-soy", "amount": "1 part" },
+      { "id": "yuzu-ponzu", "amount": "1 part", "sub": "calamansi is correct" },
+      { "id": "fresh-chili", "amount": "1, minced" },
+      { "id": "scallion", "amount": "1, sliced" }
+    ],
+    "method": ["Stir together in a saucer."],
+    "uses": ["Grilled pork", "Fried fish", "Lumpia", "Fried chicken"],
+    "note": "Calamansi is floral-sour with a bitter edge, which is why ponzu slots in so cleanly."
+  },
+  {
+    "id": "sukat-bawang",
+    "name": "Suka't bawang",
+    "nativeName": "suka't bawang",
+    "cuisine": "filipino",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Pungent", "Spicy"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Deliberately harsh. That is the point.",
+    "ingredients": [
+      { "id": "cider-vinegar", "amount": "1/2 cup", "sub": "cane vinegar is correct" },
+      { "id": "garlic", "amount": "6 cloves, minced raw" },
+      { "id": "salt", "amount": "1/2 tsp" },
+      { "id": "black-pepper", "amount": "cracked, generous" },
+      { "id": "fresh-chili", "amount": "2, sliced" },
+      { "id": "msg", "amount": "a pinch", "optional": true }
+    ],
+    "method": [
+      "Combine and let it stand an hour so the garlic mellows slightly.",
+      "A pinch of MSG and a few drops of fish sauce fake the funk that cane vinegar has and cider does not."
+    ],
+    "uses": ["Fried pork", "Grilled fish", "Chicharon", "Fried eggs"]
+  },
+  {
+    "id": "patis-calamansi",
+    "name": "Patis at calamansi",
+    "nativeName": "patis-calamansi",
+    "cuisine": "filipino",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Salty", "Citrus", "Spicy"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "A salt-and-acid slap for anything that needs waking up.",
+    "ingredients": [
+      { "id": "fish-sauce", "amount": "3 tbsp" },
+      { "id": "yuzu-ponzu", "amount": "2 tbsp", "sub": "calamansi is correct" },
+      { "id": "fresh-chili", "amount": "2, crushed" }
+    ],
+    "method": ["Combine. Serve in a shallow saucer so you can dip rather than pour."],
+    "uses": ["Lugaw", "Fried eggs", "Plain rice", "Noodle soup"]
+  },
+  {
+    "id": "inihaw-sawsawan",
+    "name": "Sawsawan for inihaw",
+    "nativeName": "sawsawan",
+    "cuisine": "filipino",
+    "region": null,
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Salty", "Aromatic"],
+    "heat": 1,
+    "sweetness": 1,
+    "blurb": "Slightly sweeter than the rest, and meant for grilled pork.",
+    "ingredients": [
+      { "id": "cider-vinegar", "amount": "3 tbsp" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "palm-sugar", "amount": "1 tsp" },
+      { "id": "scallion", "amount": "2, chopped", "sub": "shallot is traditional" },
+      { "id": "fresh-chili", "amount": "1, sliced" }
+    ],
+    "method": ["Stir together and let it sit while the grill heats."],
+    "uses": ["Grilled pork", "Inihaw na liempo", "Grilled chicken"]
+  },
+  {
+    "id": "mang-tomas",
+    "name": "Lechon sauce, improvised",
+    "nativeName": "sarsa ng lechon",
+    "cuisine": "filipino",
+    "region": null,
+    "category": "Condiment",
+    "flavors": ["Sweet", "Sour", "Umami"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "Where your A1 earns its keep a second time. The real thing is liver-based, so it will not be identical, but the sweet-sour-savoury shape is right.",
+    "ingredients": [
+      { "id": "a1-sauce", "amount": "1/2 cup" },
+      { "id": "breadcrumbs", "amount": "2 tbsp, to thicken" },
+      { "id": "palm-sugar", "amount": "1 tbsp" },
+      { "id": "cider-vinegar", "amount": "1 tbsp" },
+      { "id": "black-pepper", "amount": "to taste" }
+    ],
+    "method": [
+      "Warm everything gently until the breadcrumbs swell and it thickens.",
+      "Thin with water if it sets too far."
+    ],
+    "uses": ["Roast pork", "Lechon kawali", "Crispy pata"]
+  },
+  {
+    "id": "adobo",
+    "name": "Adobo",
+    "nativeName": "adobo",
+    "cuisine": "filipino",
+    "region": null,
+    "category": "Braise base",
+    "flavors": ["Sour", "Salty", "Pungent"],
+    "heat": 1,
+    "sweetness": 0,
+    "blurb": "You can make this tonight. Not sweet at all in its honest form.",
+    "ingredients": [
+      { "id": "cider-vinegar", "amount": "1/2 cup" },
+      { "id": "light-soy", "amount": "1/3 cup" },
+      { "id": "garlic", "amount": "1 whole head, smashed" },
+      { "id": "black-pepper", "amount": "1 tbsp, cracked whole" },
+      { "id": "bay-leaf", "amount": "3", "optional": true },
+      { "id": "chicken", "amount": "or pork belly" },
+      { "id": "water", "amount": "to barely cover" }
+    ],
+    "method": [
+      "Combine everything cold in the pot and bring to a simmer.",
+      "Do not stir for the first ten minutes. Let the vinegar cook off its raw edge.",
+      "Simmer until tender, then reduce hard so it glazes."
+    ],
+    "uses": ["Chicken", "Pork belly", "Squid", "Water spinach"]
+  },
+  {
+    "id": "schezwan-chutney",
+    "name": "Schezwan chutney",
+    "nativeName": "शेज़वान चटनी",
+    "cuisine": "indo-chinese",
+    "region": "Kolkata",
+    "category": "Condiment",
+    "flavors": ["Spicy", "Sour", "Pungent", "Umami"],
+    "heat": 3,
+    "sweetness": 0,
+    "blurb": "The Indian one, unrelated to actual Sichuan cooking. Goes on noodles, rice, eggs and sandwiches.",
+    "ingredients": [
+      { "id": "dried-chili", "amount": "20, soaked in hot water" },
+      { "id": "garlic", "amount": "1 whole head, an absurd amount" },
+      { "id": "ginger", "amount": "2 tbsp" },
+      { "id": "rice-vinegar", "amount": "3 tbsp" },
+      { "id": "salt", "amount": "2 tsp" },
+      { "id": "msg", "amount": "1/2 tsp" },
+      { "id": "neutral-oil", "amount": "1/3 cup" },
+      { "id": "light-soy", "amount": "1 tbsp", "optional": true }
+    ],
+    "method": [
+      "Soak the dried chilies until soft, then blend with garlic, ginger, vinegar and salt.",
+      "Fry the paste in oil over medium heat until it darkens and the oil separates out.",
+      "Cool completely before jarring."
+    ],
+    "uses": ["Hakka noodles", "Fried rice", "Eggs", "Sandwiches", "Momos"],
+    "note": "Skip any fermented bean paste here. Chilies, garlic, ginger and vinegar carry it on their own.",
+    "keeps": "A month, refrigerated under a film of oil"
+  },
+  {
+    "id": "manchurian",
+    "name": "Manchurian sauce",
+    "nativeName": "मंचूरियन",
+    "cuisine": "indo-chinese",
+    "region": "Kolkata",
+    "category": "Stir-fry sauce",
+    "flavors": ["Salty", "Spicy", "Pungent", "Umami"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "Restaurant versions are cloying. Skip the sugar entirely and it is sharp and savoury.",
+    "ingredients": [
+      { "id": "garlic", "amount": "6 cloves, minced" },
+      { "id": "ginger", "amount": "2 tbsp, minced" },
+      { "id": "fresh-chili", "amount": "2 green, minced" },
+      { "id": "scallion", "amount": "whites, chopped" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "dark-soy", "amount": "a few drops" },
+      { "id": "rice-vinegar", "amount": "1 tbsp" },
+      { "id": "sriracha", "amount": "1 tbsp", "sub": "schezwan chutney is better" },
+      { "id": "white-pepper", "amount": "1/2 tsp" },
+      { "id": "cornstarch", "amount": "slurry" }
+    ],
+    "method": [
+      "Fry garlic, ginger, chili and scallion whites hard in hot oil.",
+      "Add the liquids and chili paste, bring to a boil.",
+      "Thicken with cornstarch slurry, then toss with fried vegetable balls or chicken."
+    ],
+    "uses": ["Gobi manchurian", "Chicken manchurian", "Vegetable balls"]
+  },
+  {
+    "id": "indo-chili-garlic-noodles",
+    "name": "Indo-Chinese chili garlic noodles",
+    "nativeName": "हक्का नूडल्स",
+    "cuisine": "indo-chinese",
+    "region": "Kolkata",
+    "category": "Noodle sauce",
+    "flavors": ["Spicy", "Salty", "Aromatic"],
+    "heat": 2,
+    "sweetness": 0,
+    "blurb": "The tell is a quarter teaspoon of garam masala hitting the wok at the end. Sounds wrong, tastes right.",
+    "ingredients": [
+      { "id": "garlic", "amount": "8 cloves, sliced" },
+      { "id": "fresh-chili", "amount": "2, sliced" },
+      { "id": "light-soy", "amount": "2 tbsp" },
+      { "id": "rice-vinegar", "amount": "1 tbsp" },
+      { "id": "white-pepper", "amount": "1/2 tsp" },
+      { "id": "garam-masala", "amount": "1/4 tsp, at the very end" },
+      { "id": "scallion", "amount": "to finish" },
+      { "id": "noodles", "amount": "cooked and dried off" }
+    ],
+    "method": [
+      "Get the wok hot enough to hurt. Fry the garlic and chili for fifteen seconds.",
+      "Add noodles and the liquids, toss hard.",
+      "Off the heat, dust with garam masala and scatter scallion."
+    ],
+    "uses": ["Hakka noodles", "Fried rice, same treatment"],
+    "note": "Worcestershire is the historical link here. It descends from a tamarind and anchovy Anglo-Indian sauce."
+  },
+  {
+    "id": "pad-thai-sauce",
+    "name": "Pad thai sauce",
+    "nativeName": "ผัดไทย",
+    "cuisine": "thai",
+    "category": "Noodle sauce",
+    "flavors": ["Sour", "Sweet", "Salty", "Umami"],
+    "heat": 0,
+    "sweetness": 2,
+    "blurb": "Restaurant versions are dessert. Tamarind and fish sauce carry it; hold the sugar down and it tastes like food again.",
+    "ingredients": [
+      { "id": "tamarind", "amount": "3 tbsp paste, from the block" },
+      { "id": "fish-sauce", "amount": "3 tbsp" },
+      { "id": "palm-sugar", "amount": "2 tbsp, and no more" },
+      { "id": "water", "amount": "2 tbsp, to loosen" },
+      { "id": "dried-chili", "amount": "flakes, at the table", "optional": true }
+    ],
+    "method": [
+      "Soak block tamarind in hot water, work it with a fork, and push it through a sieve.",
+      "Warm everything until the palm sugar dissolves. Taste: sour first, salt behind it, sweet last.",
+      "About three tablespoons per portion of noodles, into a hot pan."
+    ],
+    "uses": ["Rice noodles", "Fried tofu", "Shrimp", "Eggs"],
+    "note": "The classic ratio is equal parts. Starting the sugar at two-thirds is deliberate.",
+    "keeps": "Two weeks, refrigerated"
+  },
+  {
+    "id": "sinigang-base",
+    "name": "Sinigang base",
+    "nativeName": "sinigang sa sampalok",
+    "cuisine": "filipino",
+    "category": "Soup base",
+    "flavors": ["Sour", "Salty", "Umami"],
+    "heat": 0,
+    "sweetness": 0,
+    "blurb": "The souring packets are mostly salt and citric acid. Real tamarind gives the broth some body behind its pucker.",
+    "ingredients": [
+      { "id": "tamarind", "amount": "1/2 cup pulp, from the block" },
+      { "id": "fish-sauce", "amount": "3 tbsp, at the end" },
+      { "id": "onion", "amount": "1, quartered" },
+      { "id": "tomato", "amount": "2, quartered" },
+      { "id": "stock", "amount": "8 cups, or water" },
+      { "id": "fresh-chili", "amount": "1, whole, not sliced", "optional": true },
+      { "id": "pork", "amount": "ribs or belly, or shrimp" }
+    ],
+    "method": [
+      "Simmer the tamarind pulp in a cup of the stock, mash it, and strain back into the pot.",
+      "Simmer the meat with onion and tomato until tender, then add vegetables in order of toughness.",
+      "Season with fish sauce off the heat. It should make you wince a little."
+    ],
+    "uses": ["Pork ribs", "Shrimp", "Fish", "Water spinach", "Daikon"],
+    "note": "Sourness fades as it sits. Err past where you want it."
+  },
+  {
+    "id": "nam-prik-pao",
+    "name": "Nam prik pao",
+    "nativeName": "น้ำพริกเผา",
+    "cuisine": "thai",
+    "category": "Condiment",
+    "flavors": ["Smoky", "Sweet", "Umami", "Spicy"],
+    "heat": 1,
+    "sweetness": 2,
+    "blurb": "Thai chili jam, and what makes tom yum taste like a restaurant's. Sweeter than it looks. Treat the sugar as a ceiling.",
+    "ingredients": [
+      { "id": "dried-chili", "amount": "15, seeded and toasted dark" },
+      { "id": "shallot", "amount": "6, sliced and fried golden" },
+      { "id": "garlic", "amount": "1 head, sliced and fried golden" },
+      { "id": "dried-shrimp", "amount": "3 tbsp, toasted" },
+      { "id": "tamarind", "amount": "2 tbsp paste" },
+      { "id": "palm-sugar", "amount": "2 tbsp" },
+      { "id": "fish-sauce", "amount": "2 tbsp" },
+      { "id": "neutral-oil", "amount": "1/2 cup, the frying oil" }
+    ],
+    "method": [
+      "Fry shallots, then garlic, then chilies in the oil, each until just past golden. Do not walk away.",
+      "Blend the fried things with the dried shrimp, loosened with the frying oil.",
+      "Cook the paste back down with tamarind, palm sugar and fish sauce until it darkens to jam."
+    ],
+    "uses": ["Tom yum", "Stir-fried greens", "Fried rice", "Spread under a fried egg"],
+    "keeps": "A month, refrigerated under a film of oil"
+  },
+  {
+    "id": "nuoc-mam-me",
+    "name": "Tamarind fish sauce",
+    "nativeName": "nước mắm me",
+    "cuisine": "vietnamese",
+    "category": "Dipping sauce",
+    "flavors": ["Sour", "Sweet", "Salty", "Spicy"],
+    "heat": 1,
+    "sweetness": 2,
+    "blurb": "Nuoc cham's darker cousin. Tamarind instead of lime, cooked until it just coats a spoon. Made for fried fish.",
+    "ingredients": [
+      { "id": "tamarind", "amount": "3 tbsp paste" },
+      { "id": "fish-sauce", "amount": "2 tbsp" },
+      { "id": "palm-sugar", "amount": "2 tbsp" },
+      { "id": "water", "amount": "1/4 cup" },
+      { "id": "garlic", "amount": "2 cloves, minced" },
+      { "id": "fresh-chili", "amount": "1, sliced" }
+    ],
+    "method": [
+      "Simmer tamarind, water and palm sugar until slightly thickened.",
+      "Off the heat, add fish sauce, garlic and chili.",
+      "Serve warm. It tightens as it cools."
+    ],
+    "uses": ["Fried fish", "Grilled shrimp", "Fried tofu", "Rice"],
+    "note": "Sweeter than nuoc cham by design, but two tablespoons is already generous. Taste before adding more."
+  },
+  {
+    "id": "imli-chutney",
+    "name": "Imli chutney",
+    "nativeName": "इमली की चटनी",
+    "cuisine": "indo-chinese",
+    "category": "Condiment",
+    "flavors": ["Sour", "Sweet", "Pungent"],
+    "heat": 0,
+    "sweetness": 3,
+    "blurb": "The sweet-sour one on every chaat. It is honestly sweet, because that is the job. Make it rarely and make it count.",
+    "ingredients": [
+      { "id": "tamarind", "amount": "1/2 cup pulp" },
+      { "id": "palm-sugar", "amount": "1/3 cup, standing in for jaggery" },
+      { "id": "cumin-seed", "amount": "1 tsp, dry-roasted and ground" },
+      { "id": "ginger", "amount": "1 tsp, grated" },
+      { "id": "kashmiri-chili", "amount": "1/2 tsp" },
+      { "id": "salt", "amount": "1/2 tsp" },
+      { "id": "water", "amount": "1 cup" }
+    ],
+    "method": [
+      "Simmer everything until it coats a spoon, about fifteen minutes.",
+      "Push through a sieve and cool. It thickens further as it sets."
+    ],
+    "uses": ["Samosas", "Chaat", "Pakoras", "Yogurt bowls"],
+    "note": "Cutting the sugar here breaks it. If sweetness 3 is off the table tonight, reach for the schezwan chutney instead.",
+    "keeps": "Three weeks, refrigerated"
+  },
+  {
+    "id": "spicy-mayo",
+    "name": "Spicy mayo",
+    "nativeName": "スパイシーマヨ",
+    "cuisine": "japanese",
+    "category": "Condiment",
+    "flavors": ["Spicy", "Umami"],
+    "heat": 1,
+    "sweetness": 1,
+    "blurb": "Two things stirred together and still the most requested sauce in any house. The sriracha is already sweet; it needs nothing else.",
+    "ingredients": [
+      { "id": "mayo", "amount": "1/4 cup" },
+      { "id": "sriracha", "amount": "1-2 tbsp, more than feels polite" },
+      { "id": "sesame-oil", "amount": "1/2 tsp", "optional": true },
+      { "id": "cayenne", "amount": "a pinch, when it needs to bite harder", "optional": true }
+    ],
+    "method": [
+      "Stir and taste. The ratio is a preference, not a formula.",
+      "Let it sit ten minutes so the garlic in the sriracha blooms."
+    ],
+    "uses": ["Karaage", "Crispy tofu", "Rice bowls", "Roast vegetables", "Onigiri"],
+    "keeps": "A week, refrigerated"
+  },
+  {
+    "id": "ginataan-base",
+    "name": "Ginataan base",
+    "nativeName": "gata",
+    "cuisine": "filipino",
+    "region": "Bicol",
+    "category": "Braise base",
+    "flavors": ["Funky", "Spicy", "Umami"],
+    "heat": 2,
+    "sweetness": 1,
+    "blurb": "Coconut milk cooked past creamy into sauce. The Bicol formula: coconut, chili and shrimp paste, no compromise on any of the three.",
+    "ingredients": [
+      { "id": "coconut-milk", "amount": "2 cans; one to simmer, one to finish" },
+      { "id": "garlic", "amount": "6 cloves, sliced" },
+      { "id": "ginger", "amount": "2 tbsp, julienned" },
+      { "id": "onion", "amount": "1, sliced" },
+      { "id": "bagoong", "amount": "2 tbsp", "sub": "3 tbsp fish sauce, quieter but it works" },
+      { "id": "fresh-chili", "amount": "4-6, and that is the mild version" },
+      { "id": "pork", "amount": "belly, or shrimp, or squash and greens" }
+    ],
+    "method": [
+      "Simmer the first can until the oil splits out, then fry the aromatics in that oil.",
+      "Add the meat and bagoong, then the second can. Keep it under a boil.",
+      "Reduce until it clings. Watery gata is the common failure."
+    ],
+    "uses": ["Bicol express", "Shrimp", "Squash and long beans", "Laing-style greens"],
+    "note": "The sweetness rating is the coconut itself. Do not add sugar."
+  },
+  {
+    "id": "tom-kha-base",
+    "name": "Tom kha base",
+    "nativeName": "ต้มข่า",
+    "cuisine": "thai",
+    "category": "Soup base",
+    "flavors": ["Sour", "Citrus", "Aromatic", "Umami"],
+    "heat": 1,
+    "sweetness": 1,
+    "blurb": "Galangal, lemongrass and makrut leaves are the real spine. This is the version your pantry can field tonight, and it still earns the pot.",
+    "ingredients": [
+      { "id": "coconut-milk", "amount": "1 can" },
+      { "id": "stock", "amount": "2 cups, chicken" },
+      { "id": "ginger", "amount": "6 thick slices, standing in for galangal" },
+      { "id": "fish-sauce", "amount": "2 tbsp" },
+      { "id": "yuzu-ponzu", "amount": "2 tbsp off the heat, doing lime duty" },
+      { "id": "fresh-chili", "amount": "2, bruised" },
+      { "id": "palm-sugar", "amount": "1 tsp", "optional": true },
+      { "id": "chicken", "amount": "thighs, or shrimp, or mushrooms" },
+      { "id": "cilantro", "amount": "to finish", "optional": true }
+    ],
+    "method": [
+      "Simmer the ginger and chili in the stock for ten minutes.",
+      "Add coconut milk and chicken and keep it under a boil. Coconut milk splits at a gallop.",
+      "Off the heat, fish sauce and ponzu. Cooked citrus goes dull."
+    ],
+    "uses": ["Tom kha gai", "Shrimp", "Mushrooms", "Spooned over rice"]
+  }
+]

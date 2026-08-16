@@ -1,0 +1,415 @@
+/* ============================================================
+   Sauce Atlas — visual system
+   Red paper, gold foil, jade, lapis, parchment.
+   Gold is used only in hairlines, seals and small caps. Never as a fill.
+
+   Two palettes. Light is red paper under daylight; dark is the same
+   pigments seen by lamplight — ink ground, the metals and the seal
+   unchanged, the pigments lifted just enough to read.
+
+   Pigments below the first block are fixed. Everything a surface or a
+   piece of text actually references is a semantic token, and only those
+   are re-declared for the dark palette. Components never reach past them.
+   ============================================================ */
+
+:root {
+  /* paper */
+  --parchment: #ece0c4;
+  --parchment-warm: #f3e9d3;
+  --parchment-deep: #ddcba4;
+  --parchment-shadow: rgba(60, 40, 18, 0.16);
+
+  /* pigments */
+  --lacquer: #8b1a1c;
+  --lacquer-deep: #5e1113;
+  --cinnabar: #c2392a;
+  --cinnabar-pale: #e2765f;
+  --jade: #1e6b57;
+  --jade-pale: #9dc3b1;
+  --lapis: #1d3d78;
+  --lapis-pale: #8db0e4;
+  --ink: #241b13;
+  --ink-soft: #5b4b39;
+  --ink-faint: #8a7659;
+  --ink-quiet: #6f5c3f; /* deep enough to carry small text on parchment (4.5:1) */
+  --smoke: #a99a86;
+  --sugar: #9a5a2b;
+  --sugar-pale: #d09965;
+
+  /* metal */
+  --gold: #b4892e;
+  --gold-bright: #e6cb84;
+  --gold-deep: #7d5c15;
+  --foil: linear-gradient(
+    100deg,
+    var(--gold-deep) 0%,
+    var(--gold) 18%,
+    var(--gold-bright) 34%,
+    var(--gold) 52%,
+    var(--gold-deep) 70%,
+    var(--gold-bright) 88%,
+    var(--gold) 100%
+  );
+
+  /* type */
+  --display: 'Marcellus', 'Noto Serif SC', 'Songti SC', Georgia, serif;
+  --display-sc: 'Marcellus SC', 'Marcellus', Georgia, serif;
+  --body: 'Spectral', Georgia, 'Times New Roman', serif;
+  --utility: 'Barlow Condensed', 'Helvetica Neue', Arial, sans-serif;
+  --seal-face: 'Noto Serif SC', 'Songti SC', 'Marcellus', serif;
+
+  --rail: 300px;
+  --radius: 2px;
+}
+
+/* ---------- the light palette ---------- */
+
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: var(--parchment);
+  --bg-glow-a: rgba(255, 250, 235, 0.55);
+  --bg-glow-b: rgba(140, 100, 40, 0.14);
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)' opacity='0.055'/%3E%3C/svg%3E");
+  --grain-fine: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)' opacity='0.05'/%3E%3C/svg%3E");
+
+  --text: var(--ink);
+  --text-soft: var(--ink-soft);
+  --text-faint: var(--ink-quiet);
+
+  --surface-top: rgba(255, 251, 240, 0.9);
+  --surface-bottom: rgba(233, 218, 185, 0.75);
+  --surface-sheen: rgba(255, 255, 255, 0.5);
+  --surface-sheen-lift: rgba(255, 255, 255, 0.6);
+  --surface-bar: rgba(236, 224, 196, 0.94);
+  --surface-sheet: var(--parchment-warm);
+  --card-shadow: var(--parchment-shadow);
+
+  --field-bg: rgba(255, 251, 240, 0.85);
+  --field-border: rgba(120, 95, 55, 0.85);
+  --field-border-hover: var(--gold);
+  --field-ring: rgba(180, 137, 46, 0.28);
+  --accent-edge: var(--lacquer-deep);
+
+  --rule: rgba(180, 137, 46, 0.42);
+  --rule-soft: rgba(180, 137, 46, 0.35);
+  --rule-strong: rgba(180, 137, 46, 0.6);
+  --rule-dotted: rgba(120, 95, 55, 0.4);
+
+  --tag-bg: rgba(255, 250, 235, 0.4);
+  --tag-bg-hover: rgba(255, 250, 235, 0.85);
+  --tick-inset: var(--parchment);
+
+  --scrim: rgba(36, 27, 19, 0.55);
+
+  --accent: var(--lacquer);
+  --accent-hot: var(--cinnabar);
+  --accent-fill: var(--lacquer);
+  --accent-fill-hot: var(--cinnabar);
+  --on-accent: var(--parchment-warm);
+  --link: var(--lapis);
+  --focus: var(--lapis);
+
+  --band-base: var(--lacquer);
+  --band-glow: rgba(194, 57, 42, 0.85);
+  --band-weave: rgba(0, 0, 0, 0.14);
+  --band-text: var(--parchment-warm);
+  --band-dim: rgba(240, 220, 180, 0.62);
+  --band-quiet: rgba(240, 220, 180, 0.8);
+
+  --seal-ink: var(--ink);
+
+  --mark-have: var(--jade);
+  --mark-sub: var(--lapis);
+  --mark-gap: var(--cinnabar);
+
+  --ready-bg: rgba(30, 107, 87, 0.12);
+  --ready-fg: var(--jade);
+  --sub-bg: rgba(29, 61, 120, 0.1);
+  --sub-fg: var(--lapis);
+  --short-bg: rgba(194, 57, 42, 0.1);
+  --short-fg: var(--lacquer);
+
+  --note-bg: rgba(180, 137, 46, 0.09);
+  --empty-glyph: rgba(139, 26, 28, 0.25);
+
+  /* one pigment per taste, everywhere the taste appears */
+  --taste-sour: var(--jade);
+  --taste-salty: var(--lapis);
+  --taste-spicy: var(--cinnabar);
+  --taste-sweet: var(--sugar);
+  --taste-funky: var(--ink-soft);
+  --taste-nutty: var(--gold-deep);
+}
+
+/* ---------- the dark palette ----------
+   Same room, lamp instead of window. Ink ground, warm parchment type,
+   pigments lifted to their pale forms so they still read at small sizes.
+   Gold stays a hairline; it is never allowed to become a fill here either. */
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #16120e;
+  --bg-glow-a: rgba(120, 92, 52, 0.18);
+  --bg-glow-b: rgba(139, 26, 28, 0.16);
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)' opacity='0.05'/%3E%3C/svg%3E");
+  --grain-fine: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)' opacity='0.045'/%3E%3C/svg%3E");
+
+  --text: #efe3c8;
+  --text-soft: #c4b393;
+  --text-faint: #96866c;
+
+  --surface-top: rgba(46, 37, 29, 0.92);
+  --surface-bottom: rgba(31, 25, 20, 0.92);
+  --surface-sheen: rgba(255, 235, 190, 0.06);
+  --surface-sheen-lift: rgba(255, 235, 190, 0.1);
+  --surface-bar: rgba(22, 18, 14, 0.94);
+  --surface-sheet: #1c1712;
+  --card-shadow: rgba(0, 0, 0, 0.75);
+
+  --field-bg: rgba(48, 39, 30, 0.75);
+  --field-border: rgba(180, 137, 46, 0.7);
+  --field-border-hover: var(--gold-bright);
+  --field-ring: rgba(230, 203, 132, 0.25);
+  --accent-edge: var(--cinnabar-pale);
+
+  --rule: rgba(180, 137, 46, 0.38);
+  --rule-soft: rgba(180, 137, 46, 0.3);
+  --rule-strong: rgba(180, 137, 46, 0.52);
+  --rule-dotted: rgba(180, 137, 46, 0.26);
+
+  --tag-bg: rgba(255, 235, 190, 0.05);
+  --tag-bg-hover: rgba(255, 235, 190, 0.12);
+  --tick-inset: #1c1712;
+
+  --scrim: rgba(8, 6, 4, 0.72);
+
+  --accent: #dd6b52;
+  --accent-hot: #ea8a73;
+  --accent-fill: var(--lacquer);
+  --accent-fill-hot: var(--cinnabar);
+  --on-accent: var(--parchment-warm);
+  --link: var(--lapis-pale);
+  --focus: var(--lapis-pale);
+
+  --band-base: #4a1113;
+  --band-glow: rgba(139, 26, 28, 0.7);
+  --band-weave: rgba(0, 0, 0, 0.24);
+  --band-text: var(--parchment-warm);
+  --band-dim: rgba(240, 220, 180, 0.5);
+  --band-quiet: rgba(240, 220, 180, 0.72);
+
+  --seal-ink: #493b2c;
+
+  --mark-have: var(--jade-pale);
+  --mark-sub: var(--lapis-pale);
+  --mark-gap: var(--cinnabar-pale);
+
+  --ready-bg: rgba(30, 107, 87, 0.22);
+  --ready-fg: var(--jade-pale);
+  --sub-bg: rgba(29, 61, 120, 0.26);
+  --sub-fg: var(--lapis-pale);
+  --short-bg: rgba(194, 57, 42, 0.18);
+  --short-fg: var(--cinnabar-pale);
+
+  --note-bg: rgba(180, 137, 46, 0.1);
+  --empty-glyph: rgba(226, 118, 95, 0.22);
+
+  --taste-sour: var(--jade-pale);
+  --taste-salty: var(--lapis-pale);
+  --taste-spicy: var(--cinnabar-pale);
+  --taste-sweet: var(--sugar-pale);
+  --taste-funky: var(--smoke);
+  --taste-nutty: var(--gold-bright);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at 12% 8%, var(--bg-glow-a), transparent 45%),
+    radial-gradient(circle at 88% 82%, var(--bg-glow-b), transparent 50%),
+    var(--grain);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------- shared primitives ---------- */
+
+.eyebrow {
+  font-family: var(--utility);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+/* Visually hidden, still read aloud. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+.rule-foil {
+  height: 2px;
+  border: 0;
+  margin: 0;
+  background: var(--foil);
+  background-size: 300% 100%;
+}
+
+.hairline {
+  border: 1px solid var(--rule);
+}
+
+/* The seal mark. The signature element: a cinnabar stamp, slightly off-square,
+   set a degree or two askew as if pressed by hand. It does not change with the
+   palette; a chop is a chop. */
+.seal {
+  display: inline-grid;
+  place-items: center;
+  background: var(--cinnabar);
+  color: var(--parchment-warm);
+  font-family: var(--seal-face);
+  line-height: 1;
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 240, 214, 0.7),
+    inset 0 0 0 3px var(--cinnabar),
+    0 1px 0 rgba(94, 17, 19, 0.35);
+  border-radius: 3px;
+  transform: rotate(-2.2deg);
+  text-align: center;
+  overflow: hidden;
+  padding: 0.1em;
+}
+
+.seal--jade {
+  background: var(--jade);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 240, 214, 0.7),
+    inset 0 0 0 3px var(--jade);
+}
+.seal--lapis {
+  background: var(--lapis);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 240, 214, 0.7),
+    inset 0 0 0 3px var(--lapis);
+}
+.seal--lacquer {
+  background: var(--lacquer);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 240, 214, 0.7),
+    inset 0 0 0 3px var(--lacquer);
+}
+.seal--gold {
+  background: var(--gold-deep);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 240, 214, 0.7),
+    inset 0 0 0 3px var(--gold-deep);
+}
+.seal--ink {
+  background: var(--seal-ink);
+  box-shadow:
+    inset 0 0 0 1.5px rgba(255, 240, 214, 0.7),
+    inset 0 0 0 3px var(--seal-ink);
+}
+
+/* Flavour chips. Each taste keeps one pigment everywhere it appears. */
+.chip {
+  font-family: var(--utility);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.15em 0.6em 0.1em;
+  border: 1px solid currentColor;
+  border-radius: 1px;
+  white-space: nowrap;
+}
+
+/* --taste-ink lets scoped component rules pick the pigment up without a
+   specificity fight: they read var(--taste-ink, fallback) for their colour. */
+.taste-sour,
+.taste-citrus {
+  color: var(--taste-sour);
+  --taste-ink: var(--taste-sour);
+}
+.taste-salty,
+.taste-umami {
+  color: var(--taste-salty);
+  --taste-ink: var(--taste-salty);
+}
+.taste-spicy,
+.taste-numbing,
+.taste-pungent {
+  color: var(--taste-spicy);
+  --taste-ink: var(--taste-spicy);
+}
+.taste-sweet {
+  color: var(--taste-sweet);
+  --taste-ink: var(--taste-sweet);
+}
+.taste-funky,
+.taste-smoky {
+  color: var(--taste-funky);
+  --taste-ink: var(--taste-funky);
+}
+.taste-nutty,
+.taste-aromatic {
+  color: var(--taste-nutty);
+  --taste-ink: var(--taste-nutty);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto !important;
+  }
+}
